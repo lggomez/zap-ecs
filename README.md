@@ -1,5 +1,7 @@
 # zap-ecs
 
+[![build](https://github.com/lggomez/zap-ecs/actions/workflows/build.yml/badge.svg)](https://github.com/lggomez/zap-ecs/actions/workflows/build.yml)
+
 This package provides a zap logging layer that groups and serializes ECS compliant field keys into its appropriate JSON representations upon encoding. This is done via field aggregation and proxying on encoding time. Also, it providers helpers that create zap.Field instances of supported ECS fields
 
 ## ECS Compatibility status
