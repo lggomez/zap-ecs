@@ -1,0 +1,29 @@
+{
+  "@timestamp": 1600000000,
+  "application": "test-application",
+  "environment": "test-environment",
+  "error": {},
+  "event": {},
+  "http": {},
+  "labels": {
+    "elapsed_example": "1.532s",
+    "foo": "a"
+  },
+  "lib_language": "go version go1.14.12 darwin/amd64",
+  "lib_version": "test-local-kit",
+  "log": {
+    "level": "debug",
+    "logger": "ecs_(uber-go/zap)"
+  },
+  "message": "this is a test message",
+  "node_name": "local-node",
+  "pod_name": "local-pod",
+  "service": "test-logging-service",
+  "tags": [
+    "test-environment",
+    "tag1",
+    "tag2",
+    "tag3"
+  ],
+  "trace": {}
+}

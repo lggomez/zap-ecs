@@ -1,0 +1,60 @@
+{
+  "@timestamp": 1600000000,
+  "application": "test-application",
+  "environment": "test-environment",
+  "error": {
+    "message": "fail",
+    "stack_trace": "goroutine 22 [running]:\\nruntime/debug.Stack(0x1483cf0, 0xd, 0xc0001587e8)\\n\\t/usr/local/go/src/runtime/debug/stack.go:24 +0x9d\\nmy-library/platform/log.Test_LoggerFormat.func5(0xc00024e5a0)\\n\\t/Users/home/my-library/log/logger_test.go:193 +0x260e\\ntesting.tRunner(0xc00024e5a0, 0xc000250360)\\n\\t/usr/local/go/src/testing/testing.go:1050 +0xdc\\ncreated by testing.(*T).Run\\n\\t/usr/local/go/src/testing/testing.go:1095 +0x28b\\n\": \"my-library/platform/log.Stack\\n\\t/Users/home/my-library/log/fields.go:237\\nmy-library/platform/log.Test_LoggerFormat.func5\\n\\t/Users/home/my-library/log/logger_test.go:193\\ntesting.tRunner\\n\\t/usr/local/go/src/testing/testing.go:1050",
+    "type": "panic"
+  },
+  "event": {
+    "action": "test-started",
+    "category": "test_case",
+    "kind": "test",
+    "module": "log_test",
+    "original": "test",
+    "outcome": "test-outcome",
+    "type": "test"
+  },
+  "http": {
+    "request": {
+      "body": {
+        "content": "{\"foo\": 42}",
+        "headers": "[foo=bar]"
+      },
+      "method": "POST",
+      "referrer": "https://www2.luisgg.com.ar/"
+    },
+    "response": {
+      "body": {
+        "content": "{\"result\": \"OK\"}",
+        "status_code": "201"
+      },
+      "referrer": "https://www3.luisgg.com.ar/"
+    }
+  },
+  "labels": {
+    "elapsed_example": "1.532s",
+    "foo": "bar",
+    "name": "logger.test"
+  },
+  "lib_language": "go version go1.14.12 darwin/amd64",
+  "lib_version": "test-local-kit",
+  "log": {
+    "level": "error",
+    "logger": "ecs_(uber-go/zap)"
+  },
+  "message": "this is a test message",
+  "node_name": "local-node",
+  "pod_name": "local-pod",
+  "service": "test-logging-service",
+  "tags": [
+    "test-environment",
+    "tag1",
+    "tag2",
+    "tag3"
+  ],
+  "trace": {
+    "id": " 1c6ee3fc-c19e-4a63-bcb4-dd1f1862bad0"
+  }
+}

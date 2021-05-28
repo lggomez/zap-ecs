@@ -1,0 +1,73 @@
+{
+  "@timestamp": 1600000000,
+  "application": "test-application",
+  "environment": "test-environment",
+  "error": {
+    "message": "fail"
+  },
+  "event": {},
+  "http": {},
+  "labels": {
+    "any_example": {
+      "foo": 1.272019649514069
+    },
+    "binary_example": "AAEAAQAB",
+    "bool_example": "",
+    "boolp_example": "",
+    "bytestring_example": "getIntPointer(val int) *int {",
+    "elapsed_example": "1.532s",
+    "float32_example": "",
+    "float32p_example": "",
+    "float64_example": "",
+    "float64p_example": "",
+    "int16_example": "",
+    "int16p_example": "",
+    "int32_example": "",
+    "int32p_example": "",
+    "int64_example": "",
+    "int64p_example": "",
+    "int8_example": "",
+    "int8p_example": "",
+    "int_example": "",
+    "intp_example": "",
+    "reflect_example": "foo",
+    "string_example": "foo",
+    "stringer_example": "foo",
+    "stringp_example": "foo",
+    "strings_example": [
+      "foo, bar, baz, qux"
+    ],
+    "time_example": 9223368436.854776,
+    "time_fullexample": 659642171000000000,
+    "timep_example": 9223368436.854776,
+    "timep_fullexample": 659642171000000000,
+    "uint16_example": "",
+    "uint16p_example": "",
+    "uint32_example": "",
+    "uint32p_example": "",
+    "uint64_example": "",
+    "uint64p_example": "",
+    "uint8_example": "",
+    "uint8p_example": "",
+    "uint_example": "",
+    "uintp_example": "",
+    "uintptr_example": ""
+  },
+  "lib_language": "go version go1.14.12 darwin/amd64",
+  "lib_version": "test-local-kit",
+  "log": {
+    "level": "info",
+    "logger": "ecs_(uber-go/zap)"
+  },
+  "message": "this is a test message",
+  "node_name": "local-node",
+  "pod_name": "local-pod",
+  "service": "test-logging-service",
+  "tags": [
+    "test-environment",
+    "tag1",
+    "tag2",
+    "tag3"
+  ],
+  "trace": {}
+}

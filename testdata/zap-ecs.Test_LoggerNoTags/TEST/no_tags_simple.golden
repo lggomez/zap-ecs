@@ -1,0 +1,16 @@
+{
+  "@timestamp": 1600000000,
+  "error": {},
+  "event": {},
+  "http": {},
+  "labels": {
+    "elapsed_example": "1.532s",
+    "foo": "a"
+  },
+  "log": {
+    "level": "info",
+    "logger": "ecs_(uber-go/zap)"
+  },
+  "message": "this is a test message",
+  "trace": {}
+}
